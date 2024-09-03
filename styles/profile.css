@@ -1,0 +1,105 @@
+
+.header-block-btns {
+    width: 301px;
+}
+
+.header-block-btns-signin {
+    width: 98px;!important;
+}
+
+.main-profile {
+    padding-top: 32px;
+}
+
+.main-profile-list-ad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    row-gap: 32px;
+    column-gap: 24px;
+}
+
+.main-profile-list-ad-item {
+    width: 306px;
+    height: 336px;
+    gap: 8px;
+}
+
+.main-profile-list-ad-item img {
+    padding-bottom: 8px;
+    width: 306px;
+    height: 240px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+}
+
+.main-profile-list-ad-item-text {
+    width: 306px;
+    height: 88px;
+}
+
+.main-profile-list-ad-item-text h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3B82F6;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1E293B;
+}
+
+.geo, .published-date {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #64748B;
+}
+
+
+li:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    outline: 3px dashed rgba(59, 130, 246, 0.16);
+    background-color: rgba(59, 130, 246, 0.04);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: #3B82F6;
+}
+
+li:first-child p {
+    width: 168px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3B82F6;
+}
+
+li:first-child:hover {
+    outline: 3px dashed rgba(59, 130, 246, 0.32);
+    background-color: rgba(59, 130, 246, 0.08);
+}
+
+li:first-child:active {
+    outline: 3px dashed rgba(39, 110, 226, 0.16);
+    background-color: rgba(39, 110, 226, 0.04);
+    color: #1E3A8A;
+}
+
+li:first-child p:active {
+    color: #1E3A8A;
+}
