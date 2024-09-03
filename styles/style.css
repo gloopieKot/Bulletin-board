@@ -1,73 +1,3 @@
-.container {
-    width: 1296px;
-    margin: 0 auto;
-}
-
-header {
-    display: flex;
-    height: 52px;
-    background: #1E293B;
-}
-
-.header-block {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 100%;
-}
-
-.header-block-btns {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 273px;
-    height: 36px;
-    gap: 24px;
-}
-
-.header-block-btns-signin {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 70px;
-    height: 36px;
-    border: 0;
-    border-radius: 4px;
-    padding: 8px 0;
-    gap: 8px;
-    background: inherit;
-    color: #FFFFFF;
-}
-
-.header-block-btns-signin:hover {
-    color: #3B82F6;
-}
-
-.header-block-btns-new-ad {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 179px;
-    height: 32px;
-    border: 0;
-    border-radius: 4px;
-    padding: 6px 12px;
-    gap: 4px;
-    background: inherit;
-    background-color: #3B82F6;
-    color: #FFFFFF;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.header-block-btns-new-ad:hover {
-    background-color: #fff;
-    border: 1px solid #3B82F6;
-    color: #3B82F6;
-}
-
 .main-header {
     height: 84px;
     border-bottom: 1px solid #E2E8F0;
@@ -192,6 +122,7 @@ h2 {
 }
 
 .main-recommendation-list-item img {
+    padding-bottom: 8px;
     width: 306px;
     height: 240px;
     border: 1px solid #EDEDED;
@@ -228,6 +159,13 @@ h2 {
 }
 
 footer {
-    height: 152px;
-    background: #1E293B;
+    padding-top: 14px;
+    border-top: 1px solid #E2E8F0;
+    height: 52px;
+    background: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E293B;
 }

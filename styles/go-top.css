@@ -1,0 +1,19 @@
+.go-top {
+    position: fixed;
+    right: 90px;
+    top: 70%;
+    transform: translateY(-30%);
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+    color: #CBD5E1;
+    padding: 15px 10px;
+}
+
+.go-top:hover {
+    color:#3B82F6;
+}
+
+.go-top--show {
+    display: block;
+}
